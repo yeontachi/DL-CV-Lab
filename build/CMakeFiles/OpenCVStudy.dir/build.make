@@ -72,28 +72,28 @@ include CMakeFiles/OpenCVStudy.dir/flags.make
 CMakeFiles/OpenCVStudy.dir/codegen:
 .PHONY : CMakeFiles/OpenCVStudy.dir/codegen
 
-CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o: CMakeFiles/OpenCVStudy.dir/flags.make
-CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o: /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex1.cpp
-CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o: CMakeFiles/OpenCVStudy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yeonjaehyuck/Desktop/StudySet/OpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o -MF CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o.d -o CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o -c /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex1.cpp
+CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o: CMakeFiles/OpenCVStudy.dir/flags.make
+CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o: /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex2.cpp
+CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o: CMakeFiles/OpenCVStudy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yeonjaehyuck/Desktop/StudySet/OpenCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o -MF CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o.d -o CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o -c /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex2.cpp
 
-CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex1.cpp > CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.i
+CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex2.cpp > CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.i
 
-CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex1.cpp -o CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.s
+CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yeonjaehyuck/Desktop/StudySet/OpenCV/chapters/chapter2/ex2.cpp -o CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.s
 
 # Object files for target OpenCVStudy
 OpenCVStudy_OBJECTS = \
-"CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o"
+"CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o"
 
 # External object files for target OpenCVStudy
 OpenCVStudy_EXTERNAL_OBJECTS =
 
-OpenCVStudy: CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o
+OpenCVStudy: CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o
 OpenCVStudy: CMakeFiles/OpenCVStudy.dir/build.make
 OpenCVStudy: /opt/homebrew/lib/libopencv_gapi.4.10.0.dylib
 OpenCVStudy: /opt/homebrew/lib/libopencv_stitching.4.10.0.dylib

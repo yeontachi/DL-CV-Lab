@@ -129,29 +129,29 @@ OpenCVStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/build
 .PHONY : OpenCVStudy/fast
 
-chapters/chapter2/ex1.o: chapters/chapter2/ex1.cpp.o
-.PHONY : chapters/chapter2/ex1.o
+chapters/chapter2/ex2.o: chapters/chapter2/ex2.cpp.o
+.PHONY : chapters/chapter2/ex2.o
 
 # target to build an object file
-chapters/chapter2/ex1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o
-.PHONY : chapters/chapter2/ex1.cpp.o
+chapters/chapter2/ex2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o
+.PHONY : chapters/chapter2/ex2.cpp.o
 
-chapters/chapter2/ex1.i: chapters/chapter2/ex1.cpp.i
-.PHONY : chapters/chapter2/ex1.i
+chapters/chapter2/ex2.i: chapters/chapter2/ex2.cpp.i
+.PHONY : chapters/chapter2/ex2.i
 
 # target to preprocess a source file
-chapters/chapter2/ex1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.i
-.PHONY : chapters/chapter2/ex1.cpp.i
+chapters/chapter2/ex2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.i
+.PHONY : chapters/chapter2/ex2.cpp.i
 
-chapters/chapter2/ex1.s: chapters/chapter2/ex1.cpp.s
-.PHONY : chapters/chapter2/ex1.s
+chapters/chapter2/ex2.s: chapters/chapter2/ex2.cpp.s
+.PHONY : chapters/chapter2/ex2.s
 
 # target to generate assembly for a file
-chapters/chapter2/ex1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.s
-.PHONY : chapters/chapter2/ex1.cpp.s
+chapters/chapter2/ex2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenCVStudy.dir/build.make CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.s
+.PHONY : chapters/chapter2/ex2.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenCVStudy"
-	@echo "... chapters/chapter2/ex1.o"
-	@echo "... chapters/chapter2/ex1.i"
-	@echo "... chapters/chapter2/ex1.s"
+	@echo "... chapters/chapter2/ex2.o"
+	@echo "... chapters/chapter2/ex2.i"
+	@echo "... chapters/chapter2/ex2.s"
 .PHONY : help
 
 

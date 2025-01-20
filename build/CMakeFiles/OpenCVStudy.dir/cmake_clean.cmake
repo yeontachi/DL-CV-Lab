@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o"
-  "CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex1.cpp.o.d"
+  "CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o"
+  "CMakeFiles/OpenCVStudy.dir/chapters/chapter2/ex2.cpp.o.d"
   "OpenCVStudy"
   "OpenCVStudy.pdb"
 )
