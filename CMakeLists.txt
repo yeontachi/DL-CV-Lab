@@ -24,3 +24,5 @@ add_executable(OpenCVStudy ${SOURCE_FILE})
 
 # OpenCV 라이브러리 연결
 target_link_libraries(OpenCVStudy ${OpenCV_LIBS})
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build)

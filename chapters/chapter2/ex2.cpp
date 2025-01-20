@@ -6,7 +6,7 @@ int main(void){
     cout<<"Hello OpenCV"<< CV_VERSION <<endl;
 
     cv::Mat img;
-    img = cv::imread("lenna.bmp");
+    img = cv::imread("images/lenna.bmp");
 
     if(img.empty()){
         cerr<<"Image load failed"<<endl;
